@@ -7,8 +7,8 @@ const Comment = () => {
     return (
         <div className={'main_container'}>
             <div className={'comment_container'}>
-                <img src='https://via.placeholder.com/600/d32776'/>
-                <div className={profileImage}>
+                <img src={profileImage}/>
+                <div className={'comment_text'}>
                     <div className={'name'}>
                         <div>Rahul Gupta</div>
                         <p className={'time'}>2 months agp</p>

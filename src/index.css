@@ -23,17 +23,30 @@ code {
   font-family: 'Poppins', sans-serif;
 }
 
-.comment_container{
+.header a{
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size:1.2em;
   display: flex;
-  padding: 10px;
-  margin: 25px;
-  transition: all 0.3s ease-in-out;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 20px;
 }
 
-.comment_container:hover{
-  background-color: #0b1c67;
-  transition: all 0.3s ease-in-out;
+.comment_container{
+  display: flex;
+
+  margin: 25px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 .comment_container img{
   width: 5em;
@@ -75,3 +88,16 @@ code {
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
+
+
+.commentList{
+
+}
+
+.commentList h3{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-right: 50px;
+}
+
